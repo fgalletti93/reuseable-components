@@ -19,11 +19,11 @@ export const Button = ({
     "border-red-500 bg-red-500 text-white": danger,
     'rounded-full': rounded,
     'bg-white': outline,
-    "text-blue-500": primary && outline,
+    "text-blue-600": primary && outline,
     "text-gray-900": secondary && outline,
-    "text-green-500": success && outline,
+    "text-green-600": success && outline,
     "text-yellow-400": warning && outline,
-    "text-red-500": danger && outline,
+    "text-red-200": danger && outline,
   });
 
   return <button {...rest} className={classes}>{children}</button>;

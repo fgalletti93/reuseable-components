@@ -12,23 +12,23 @@ export const ButtonPage = () => {
         </Button>
       </div>
       <div>
-        <Button secondary rounded>
+        <Button secondary rounded className="mb-5">
           <GoAlert /> Secondary
         </Button>
       </div>
       <div>
-        <Button warning >
+        <Button warning className="mb-5">
           Warning
           <GoCloudDownload />
         </Button>
       </div>
       <div>
-        <Button danger>
+        <Button danger className="mb-5">
           Danger
         </Button>
       </div>
       <div>
-        <Button success outline><GoDatabase />Success</Button>
+        <Button success outline className="mb-5"><GoDatabase />Success</Button>
       </div>
     </div>
   );
